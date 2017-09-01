@@ -8,7 +8,7 @@ function init() {
     if (key === code[index]) {
       index++;
       console.log(`index: ${index}`);
-      console.log(`code.length - 1: ${code.length}`);
+      console.log(`code.length: ${code.length}`);
       if (index === code.length) {
         alert("You are the code master!");
         index = 0;
