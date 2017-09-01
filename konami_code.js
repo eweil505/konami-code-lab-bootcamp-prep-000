@@ -9,7 +9,7 @@ function init() {
       index++;
       console.log(`index: ${index}`);
       console.log(`code.length - 1: ${code.length - 1}`);
-      if (index === code.length - 1) {
+      if (index === code.length) {
         alert("You are the code master!");
         index = 0;
       }
