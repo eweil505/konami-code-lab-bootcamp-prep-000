@@ -8,7 +8,7 @@ function init() {
       index++;
 
       if (index === code.length - 1) {
-        alert("You are the code master!");
+        alert("Hurray!");
         index = 0;
       }
     } else {
