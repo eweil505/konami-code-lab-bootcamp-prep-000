@@ -4,11 +4,9 @@ function init() {
   let index = 0;
   document.body.addEventListener('keydown', function(e) {
     const key = (e.which || e.detail);
-    console.log(key);
     if (key === code[index]) {
       index++;
-      console.log(`index: ${index}`);
-      console.log(`code.length: ${code.length}`);
+
       if (index === code.length - 1) {
         alert("You are the code master!");
         index = 0;
